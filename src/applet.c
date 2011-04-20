@@ -15,7 +15,6 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
  */
 
 #include "config.h"
@@ -98,8 +97,7 @@ subscribe_to_xmonad_log_update_signal(GObject *source_object,
                 /* Interface Name */       "org.xmonad.Log",
                 /* Signal Name */          "Update",
                 /* Object Path */          "/org/xmonad/Log",
-                                           NULL,
-                                           G_DBUS_SIGNAL_FLAGS_NONE,
+                                           NULL, G_DBUS_SIGNAL_FLAGS_NONE,
                                            &handle_xmonad_log_update_signal,
                                            user_data, NULL);
 
@@ -147,8 +145,6 @@ xmonad_statusbar_applet_factory(PanelApplet *applet,
 }
 
 PANEL_APPLET_BONOBO_FACTORY("OAFIID:" PACKAGE_COMPRESSEDNAME "_Factory",
-                            PANEL_TYPE_APPLET,
-                            PACKAGE_COMPRESSEDNAME,
-                            PACKAGE_VERSION,
-                            &xmonad_statusbar_applet_factory,
+                            PANEL_TYPE_APPLET, PACKAGE_COMPRESSEDNAME,
+                            PACKAGE_VERSION, &xmonad_statusbar_applet_factory,
                             NULL);
