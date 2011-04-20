@@ -1,0 +1,16 @@
+# all directories
+Makefile.in
+Makefile
+.deps
+*.o
+
+# toplevel directory
+aclocal.m4
+autom4te.cache
+config.*
+configure
+depcomp
+install-sh
+missing
+stamp-*
+xmonad-statusbar-applet-*.tar.*

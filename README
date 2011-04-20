@@ -1,0 +1,33 @@
+INTRODUCTION
+============
+
+XMonad Statusbar Applet is a Gnome Panel Applet designed for use with the
+XMonad window manager <http://xmonad.org/>. It relies on XMonad to broadcast
+log information via DBus; therefore, to use it properly you will have edit
+your XMonad configuration. Information on how to do this is provided below.
+
+
+INSTALLATION
+============
+
+See the file 'INSTALL' for information on building with ./configure and make.
+Note however that the default prefix for this package is '/usr' (not
+'/usr/local' as INSTALL suggests).
+
+If you don't have a release version (e.g., you got the source code using git)
+then you will need to have autotools installed. 'autoreconf --install' should
+usually be enough to get to a buildable state.
+
+
+BUGS
+====
+
+Please report any bugs you find to the author (see AUTHORS). The subject of
+your email should start with 'XMonad Statusbar Applet:' otherwise it may
+accidentally be regarded as spam.
+
+
+CONFIGURING XMONAD
+==================
+
+TODO: write this section

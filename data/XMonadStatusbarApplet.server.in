@@ -1,0 +1,29 @@
+<oaf_info>
+
+<oaf_server iid="OAFIID:@PACKAGE_COMPRESSEDNAME@_Factory" type="exe"
+            location="/usr/lib/gnome-applets/@PACKAGE_TARNAME@">
+    <oaf_attribute name="repo_ids" type="stringv">
+        <item value="IDL:Bonobo/GenericFactory:1.0"/>
+        <item value="IDL:Bonobo/Unknown:1.0"/>
+    </oaf_attribute>
+    <oaf_attribute name="name" type="string"
+                   value="@PACKAGE_NAME@ Factory"/>
+    <oaf_attribute name="description" type="string"
+                   value="Factory for @PACKAGE_NAME@."/>
+</oaf_server>
+
+<oaf_server iid="OAFIID:@PACKAGE_COMPRESSEDNAME@" type="factory"
+            location="OAFIID:@PACKAGE_COMPRESSEDNAME@_Factory">
+    <oaf_attribute name="repo_ids" type="stringv">
+        <item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+        <item value="IDL:Bonobo/Control:1.0"/>
+        <item value="IDL:Bonobo/Unknown:1.0"/>
+    </oaf_attribute>
+    <oaf_attribute name="name" type="string" value="@PACKAGE_NAME@"/>
+    <oaf_attribute name="description" type="string"
+                   value="A statusbar applet for XMonad."/>
+    <oaf_attribute name="panel:icon" type="string"
+                   value="@PACKAGE_TARNAME@"/>
+</oaf_server>
+
+</oaf_info>

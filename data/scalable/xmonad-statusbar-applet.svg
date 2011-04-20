@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg3232"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="xmonad-statusbar-applet_clean-up.svg">
+  <title
+     id="title3468">XMonad Statusbar Applet Logo</title>
+  <defs
+     id="defs3234">
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.246687e-8,1.125998,-1.627297,0,6.886624,6.5312)"
+       r="23"
+       fy="2.0049825"
+       fx="3.6239223"
+       cy="2.0049825"
+       cx="3.6239223"
+       id="radialGradient2218"
+       xlink:href="#linearGradient2270"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="translate(0,-8)"
+       y2="18.375"
+       x2="45.753761"
+       y1="18.375"
+       x1="23.99696"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient1341"
+       xlink:href="#linearGradient2270"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="translate(0,-8)"
+       gradientUnits="userSpaceOnUse"
+       y2="20.6875"
+       x2="46.704754"
+       y1="20.6875"
+       x1="31.872892"
+       id="linearGradient2268"
+       xlink:href="#linearGradient2262"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="translate(0,-8)"
+       gradientUnits="userSpaceOnUse"
+       y2="17.4375"
+       x2="47.437664"
+       y1="17.4375"
+       x1="31.874874"
+       id="linearGradient2258"
+       xlink:href="#linearGradient2252"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient2252"
+       inkscape:collect="always">
+      <stop
+         id="stop2254"
+         offset="0"
+         style="stop-color:#888a85;stop-opacity:1;" />
+      <stop
+         id="stop2256"
+         offset="1"
+         style="stop-color:#888a85;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2262"
+       inkscape:collect="always">
+      <stop
+         id="stop2264"
+         offset="0"
+         style="stop-color:#d3d7cf;stop-opacity:1;" />
+      <stop
+         id="stop2266"
+         offset="1"
+         style="stop-color:#d3d7cf;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2270"
+       inkscape:collect="always">
+      <stop
+         id="stop2272"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop2274"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.8994949"
+     inkscape:cx="8.6456813"
+     inkscape:cy="7.3691691"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px" />
+  <metadata
+     id="metadata3237">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>XMonad Statusbar Applet Logo</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Stephen Drodge</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://www.gnu.org/licenses/gpl-3.0.html" />
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Stephen Drodge</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>2011</dc:date>
+      </cc:Work>
+      <cc:License
+        rdf:about="http://www.gnu.org/licenses/gpl-3.0.html">
+          <cc:permits
+            rdf:resource="http://web.resource.org/cc/Reproduction" />
+          <cc:permits
+            rdf:resource="http://web.resource.org/cc/Distribution" />
+          <cc:permits
+            rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+          <cc:requires
+            rdf:resource="http://web.resource.org/cc/Notice" />
+          <cc:requires
+            rdf:resource="http://web.resource.org/cc/ShareAlike" />
+          <cc:requires
+            rdf:resource="http://web.resource.org/cc/SourceCode" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:label="Layer 1"
+       id="layer1-1">
+      <rect
+         y="9.5"
+         x="2.5"
+         height="29"
+         width="46"
+         id="rect1333"
+         style="fill:url(#linearGradient2268);fill-opacity:1;stroke:url(#linearGradient2258);stroke-width:0.99999952;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="10.5"
+         x="3.5"
+         height="27"
+         width="45"
+         id="rect2210"
+         style="opacity:0.4;fill:none;stroke:url(#linearGradient1341);stroke-width:0.99999976;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="10.5"
+         x="3.5"
+         height="27"
+         width="45"
+         id="rect2216"
+         style="fill:none;stroke:url(#radialGradient2218);stroke-width:0.99999976;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="1.625"
+         rx="1.625"
+         y="11.5"
+         x="4.5"
+         height="25"
+         width="10"
+         id="rect1337"
+         style="color:#000000;fill:#dce0d8;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
+      <rect
+         ry="0.5625"
+         rx="0.5625"
+         y="12.5"
+         x="5.5"
+         height="23"
+         width="8"
+         id="rect2212"
+         style="opacity:0.59607843;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2214"
+         d="M 8,23.5 11,21 11,26 8,23.5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="translate(1.336101,-0.480508)"
+         style="fill:#2e3436;display:inline"
+         inkscape:label="tmp3"
+         id="layer6" />
+    </g>
+    <g
+       transform="matrix(0.29047571,0,0,0.29047571,6.8306655,14.169142)"
+       id="g3208">
+      <g
+         transform="matrix(1.02161,0,0,1.0127,45.5337,-4.35777)"
+         id="g3212">
+        <path
+           sodipodi:nodetypes="cccccccc"
+           id="text2220"
+           d="m 22.62043,20.307707 13.42735,-19.97903351 7.811622,0 -17.279164,25.81075151 -4.499782,5.075754 -15.2272635,22.858895 -7.8476204,0 19.1870719,-28.690612"
+           style="font-size:73.72440338px;font-style:normal;font-weight:normal;fill:#aeaeae;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           inkscape:connector-curvature="0" />
+        <path
+           sodipodi:nodetypes="ccccccccc"
+           style="font-size:73.72440338px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           d="m 1.4534537,0.32867349 7.8116221,0 35.7462712,53.74540051 -7.811622,0 -15.119269,-22.858895 -15.2272635,22.858895 -7.8476204,0 L 18.192644,25.383462 1.4534537,0.32867349"
+           id="path3206"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         sodipodi:nodetypes="ccccccccccccccccccccccccccc"
+         id="text3216"
+         d="m 44.517797,65.480602 11.318397,-5.652553 -11.318397,-5.599394 0,-3.171808 14.291501,7.265036 0,2.976893 -14.291501,7.353635 m 0,0 0,-3.171809 m 29.411592,-4.181826 -14.2915,7.353635 0,-3.171809 11.318398,-5.652553 -11.318398,-5.599394 0,-3.171808 14.2915,7.265036 0,2.976893 z m 17.588408,-3.916032 -14.247345,0 0,-2.976893 14.247345,0 0,2.976893 z m 0,7.885223 -14.247345,0 0,-2.976894 14.247345,0 0,2.976894 z"
+         style="font-size:28.20739937px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;text-anchor:start;fill:#ee0a00;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
