@@ -112,7 +112,7 @@ xmonad_statusbar_applet_fill(PanelApplet *applet)
     label = gtk_label_new(PACKAGE_STRING);
     gtk_label_set_single_line_mode(GTK_LABEL(label), TRUE);
     gtk_label_set_ellipsize(GTK_LABEL(label), PANGO_ELLIPSIZE_END);
-    gtk_misc_set_alignment(GTK_MISC(label), 0.0, 0.5);
+    gtk_misc_set_alignment(GTK_MISC(label), 0.0f, 0.5f);
 
     gtk_container_add(GTK_CONTAINER(applet), label);
     gtk_widget_show_all(GTK_WIDGET(applet));
