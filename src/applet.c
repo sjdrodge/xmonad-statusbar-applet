@@ -32,16 +32,12 @@ get_label_from_applet(PanelApplet *applet)
     return GTK_LABEL(gtk_bin_get_child(GTK_BIN(applet)));
 }
 
-static gboolean
-is_update_signal_well_formed(GVariant *parameters)
-{
-    if(strcmp(g_variant_get_type_string(parameters), "(s)")) return FALSE;
-    if(g_variant_n_children(parameters) != 1) return FALSE;
-
-    return TRUE;
-}
-
-/* GDBusSignalCallback */
+/*
+ * GDBusSignalCallback
+ *
+ * We are expecting signals which implement the Update member of the
+ * org.xmonad.Log interface; that means a single string of markup.
+ */
 static void
 handle_xmonad_log_update_signal(GDBusConnection *connection,
                                 const gchar *sender_name,
@@ -51,19 +47,16 @@ handle_xmonad_log_update_signal(GDBusConnection *connection,
                                 GVariant *parameters,
                                 gpointer user_data)
 {
-    const gchar *update_string;
-    GVariant *arg0;
+    gchar *update_string;
     GError *error = NULL;
 
-    if(!is_update_signal_well_formed(parameters)) {
+    if(strcmp(g_variant_get_type_string(parameters), "(s)")) {
         gtk_label_set_text(get_label_from_applet(user_data),
                            "Received malformed DBus signal.");
         return;
     }
 
-    arg0 = g_variant_get_child_value(parameters, 0);
-    update_string = g_variant_get_string(arg0, NULL);
-    g_variant_unref(arg0);
+    g_variant_get(parameters, "(s)", &update_string);
 
     if(!pango_parse_markup(update_string, -1, 0, NULL, NULL, NULL, &error)) {
         gtk_label_set_markup(get_label_from_applet(user_data),
@@ -73,6 +66,8 @@ handle_xmonad_log_update_signal(GDBusConnection *connection,
     } else {
         gtk_label_set_markup(get_label_from_applet(user_data), update_string);
     }
+
+    g_free(update_string);
 }
 
 /* GAsyncReadyCallback */
