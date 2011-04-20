@@ -50,7 +50,7 @@ handle_xmonad_log_update_signal(GDBusConnection *connection,
     gchar *update_string;
     GError *error = NULL;
 
-    if(strcmp(g_variant_get_type_string(parameters), "(s)")) {
+    if(strcmp(g_variant_get_type_string(parameters), "(s)") != 0) {
         gtk_label_set_text(get_label_from_applet(user_data),
                            "Received malformed DBus signal.");
         return;
@@ -124,7 +124,7 @@ xmonad_statusbar_applet_factory(PanelApplet *applet,
                                 const gchar *iid,
                                 gpointer user_data)
 {
-    if(strcmp(iid, "OAFIID:" PACKAGE_COMPRESSEDNAME))
+    if(strcmp(iid, "OAFIID:" PACKAGE_COMPRESSEDNAME) != 0)
         return FALSE;
 
     xmonad_statusbar_applet_fill(applet);
