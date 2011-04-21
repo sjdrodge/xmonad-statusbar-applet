@@ -122,8 +122,9 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title>XMonad Statusbar Applet Logo</dc:title>
         <dc:creator>
-          <cc:Agent>
-            <dc:title>Stephen Drodge</dc:title>
+          <cc:Agent
+            rdf:about="malito:tehminkeh@gmail.com">
+              <dc:title>Stephen Drodge</dc:title>
           </cc:Agent>
         </dc:creator>
         <cc:license
@@ -134,6 +135,17 @@
           </cc:Agent>
         </dc:rights>
         <dc:date>2011</dc:date>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Lapo Calamandrei</dc:title>
+          </cc:Agent>
+          <cc:Agent>
+            <dc:title>Andreas Nilsson</dc:title>
+          </cc:Agent>
+          <cc:Agent>
+            <dc:title>Don Stewart</dc:title>
+          </cc:Agent>
+        </dc:contributor>
       </cc:Work>
       <cc:License
         rdf:about="http://www.gnu.org/licenses/gpl-3.0.html">
