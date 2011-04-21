@@ -1,4 +1,5 @@
 AM_CPPFLAGS = -Wall $(DEPS_CFLAGS)
+AM_LDFLAGS = -Wl,--as-needed
 
 appletdir = $(libdir)/gnome-applets
 applet_PROGRAMS = xmonad-statusbar-applet

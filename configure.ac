@@ -20,7 +20,7 @@ PKG_PROG_PKG_CONFIG
 
 # Checks for libraries.
 #TODO: check for actual version numbers
-PKG_CHECK_MODULES([DEPS],[glib-2.0 gtk+-2.0 libpanelapplet-2.0])
+PKG_CHECK_MODULES([DEPS],[glib-2.0 gtk+-2.0 pango libpanelapplet-2.0])
 
 # Checks for header files.
 AC_CHECK_HEADERS([stdlib.h string.h])
