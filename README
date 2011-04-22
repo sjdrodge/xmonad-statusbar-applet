@@ -30,4 +30,10 @@ accidentally be regarded as spam.
 CONFIGURING XMONAD
 ==================
 
-TODO: write this section
+XMonad provides a general mechanism for communicating with external statusbar
+programs in the form of the Pretty Printer:
+<http://xmonad.org/xmonad-docs/xmonad-contrib/XMonad-Hooks-DynamicLog.html>.
+In order to use this with XMonad Statusbar Applet, you'll have to create a
+Pretty Printer that generates valid pango markup and then broadcasts it via a
+DBus signal. An example configuration which does this properly can be found at:
+<https://github.com/tehminkeh/xmonad-config>.
