@@ -87,8 +87,7 @@ subscribe_to_xmonad_log_update_signal(GObject *source_object,
         g_printerr("Failed to connect to DBus: %s\n", error->message);
         g_error_free(error);
     } else {
-        g_dbus_connection_signal_subscribe(connection,
-                /* Well-Known BusName */   "org.xmonad.Log",
+        g_dbus_connection_signal_subscribe(connection, NULL,
                 /* Interface Name */       "org.xmonad.Log",
                 /* Signal Name */          "Update",
                 /* Object Path */          "/org/xmonad/Log",
