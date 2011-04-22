@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.67])
-AC_INIT([XMonad Statusbar Applet],[0.1],[tehminkeh@gmail.com])
+AC_INIT([XMonad Statusbar Applet],[0.2],[tehminkeh@gmail.com])
 AM_INIT_AUTOMAKE([foreign -Wall -Werror])
 
 AC_DEFUN([AC_PACKAGE_COMPRESSEDNAME],

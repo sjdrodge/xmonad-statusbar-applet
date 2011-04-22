@@ -1,4 +1,11 @@
 ===========
+Version 0.2
+===========
+
+    * No longer requires that signals come from the org.xmonad.Log bus name
+    * Over-linking mitigated
+
+===========
 Version 0.1
 ===========
 
