@@ -59,7 +59,7 @@ handle_xmonad_log_update_signal(GDBusConnection *connection,
     g_variant_get(parameters, "(s)", &update_string);
 
     if(!pango_parse_markup(update_string, -1, 0, NULL, NULL, NULL, &error)) {
-        gtk_label_set_markup(get_label_from_applet(user_data),
+        gtk_label_set_text(get_label_from_applet(user_data),
                              "Received malformed markup.");
         g_printerr("Received malformed markup: %s\n", error->message);
         g_error_free(error);
